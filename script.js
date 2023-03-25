@@ -27,3 +27,9 @@ function updateWeather() {
   updateTime();
   setInterval(updateTime, 1000); // Actualizar la hora cada segundo
   updateWeather(); // Actualizar la temperatura inmediatamente
+
+
+  window.addEventListener("load", function() {
+    document.getElementById("search_text_input").focus();
+  });
+  
